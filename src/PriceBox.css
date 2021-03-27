@@ -1,0 +1,72 @@
+.priceBox {
+  background: #21272c;
+  border-radius: 8px;
+  width: 340px;
+  height: auto;
+  padding: 18px;
+  margin-bottom: 19px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.priceBox__descTag {
+  border-radius: 8px;
+  background-color: #067bd8;
+  border: none;
+  outline: none;
+  width: 75px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7px;
+  height: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.priceBox__descHeading {
+  margin-top: 9px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 21.79px;
+  word-spacing: 2px;
+}
+.priceBox__descSaving {
+  margin-top: 7px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 193.7%;
+  color: #465d68;
+  font-family: "Belgrano", serif;
+}
+.priceBox__descSavingPercent {
+  margin-top: 7px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 136.2%;
+  color: #24db6d;
+  font-family: "DM Serif Display", serif;
+}
+.priceBox__descSavingPercent span {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 136.2%;
+  color: #db9d24;
+  font-family: "DM Sans", sans-serif;
+}
+.priceBox__prices {
+  margin-top: 36px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  font-family: "DM Sans", sans-serif;
+}
+.priceBox__priceMain {
+  color: #4c6070;
+  margin-top: 3px;
+  text-decoration: line-through;
+}
